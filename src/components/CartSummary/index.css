@@ -1,0 +1,141 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+
+.cart-summary-bg-container {
+  margin-left: auto;
+  min-width: 250px;
+  padding: 15px;
+}
+
+.amount {
+  font-weight: bold;
+  color: #171f46;
+}
+
+.no-of-cart-items {
+  color: #616e7c;
+  margin: 10px 0px;
+}
+
+.total-order-amt {
+  font-size: 15px;
+  margin: 10px 0px;
+  color: #616e7c;
+}
+
+.checkout-btn {
+  color: white;
+  background-color: #0b69ff;
+  width: 100%;
+  padding: 8px;
+  border: none;
+  border-radius: 8px;
+  font-weight: 600;
+  margin: 10px 0px;
+  cursor: pointer;
+}
+
+.pay-close-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.pay-meds,
+.ord-sumary {
+  padding: 15px;
+}
+
+.method-container {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+  border-radius: 8px;
+  border: 1px solid gray;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+.item-icon-container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.ord-items {
+  font-weight: bold;
+  color: black;
+  margin: 8px 0px;
+  margin-left: 5px;
+}
+
+.ord-sumary-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 8px;
+}
+
+.confirm-ord-btn-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2px;
+  background-color: #6a3bcb;
+  color: white;
+  border-radius: 8px;
+}
+
+.confirm-ord-btn {
+  padding: 10px;
+  font-weight: bold;
+  background-color: transparent;
+  color: white;
+  border: none;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  margin: 8px 0px;
+  justify-content: center;
+  gap: 5px;
+}
+
+.order-success {
+  height: 50vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+@media screen and (max-width: 768px) {
+  .pay-meds-ord-sumry-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+  }
+
+  .pay-meds {
+    width: 100%;
+  }
+
+  .ord-sumary {
+    width: 100%;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .pay-meds-ord-sumry-container {
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+  }
+
+  .pay-meds {
+    width: 50%;
+  }
+
+  .ord-sumary {
+    width: 50%;
+  }
+}
